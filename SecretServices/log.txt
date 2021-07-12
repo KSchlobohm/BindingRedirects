@@ -1,0 +1,83 @@
+2021-07-12 14:25:56.411 -05:00 [INF] Loaded 2 extensions
+2021-07-12 14:25:57.739 -05:00 [INF] MSBuild registered from C:\Program Files\dotnet\sdk\5.0.301\
+2021-07-12 14:26:01.977 -05:00 [INF] Initializing upgrade step Select an entrypoint
+2021-07-12 14:26:01.981 -05:00 [INF] Setting entrypoint to only project in solution: C:\dev\UpgradeChallenges\Challenge1\BindingRedirects\SecretServices\SecretServices.csproj
+2021-07-12 14:26:01.988 -05:00 [INF] Initializing upgrade step Select project to upgrade
+2021-07-12 14:26:02.001 -05:00 [INF] Initializing upgrade step Back up project
+2021-07-12 14:29:05.875 -05:00 [INF] Applying upgrade step Back up project
+2021-07-12 14:29:07.706 -05:00 [INF] Backing up C:\dev\UpgradeChallenges\Challenge1\BindingRedirects\SecretServices to C:\dev\UpgradeChallenges\Challenge1\BindingRedirects\SecretServices.backup
+2021-07-12 14:29:07.735 -05:00 [WRN] Could not copy file C:\dev\UpgradeChallenges\Challenge1\BindingRedirects\SecretServices\log.txt due to 'The process cannot access the file 'C:\dev\UpgradeChallenges\Challenge1\BindingRedirects\SecretServices\log.txt' because it is being used by another process.'
+2021-07-12 14:29:08.782 -05:00 [INF] Project backed up to C:\dev\UpgradeChallenges\Challenge1\BindingRedirects\SecretServices.backup
+2021-07-12 14:29:08.783 -05:00 [INF] Upgrade step Back up project applied successfully
+2021-07-12 14:29:10.098 -05:00 [INF] Initializing upgrade step Convert project file to SDK style
+2021-07-12 14:29:15.456 -05:00 [INF] Applying upgrade step Convert project file to SDK style
+2021-07-12 14:29:15.459 -05:00 [INF] Converting project file format with try-convert, version 0.7.226301
+2021-07-12 14:29:17.059 -05:00 [INF] [dotnet] Conversion complete!
+2021-07-12 14:29:17.642 -05:00 [INF] Project file converted successfully! The project may require additional changes to build successfully against the new .NET target.
+2021-07-12 14:29:19.776 -05:00 [INF] Upgrade step Convert project file to SDK style applied successfully
+2021-07-12 14:29:20.890 -05:00 [INF] Initializing upgrade step Clean up NuGet package references
+2021-07-12 14:29:22.010 -05:00 [INF] Marking package Azure.Core for removal because it appears to be a transitive dependency
+2021-07-12 14:29:22.017 -05:00 [INF] Marking package Microsoft.Bcl.AsyncInterfaces for removal because it appears to be a transitive dependency
+2021-07-12 14:29:22.021 -05:00 [INF] Marking package Microsoft.Identity.Client for removal because it appears to be a transitive dependency
+2021-07-12 14:29:22.024 -05:00 [INF] Marking package Microsoft.Identity.Client.Extensions.Msal for removal because it appears to be a transitive dependency
+2021-07-12 14:29:22.026 -05:00 [INF] Marking package System.Buffers for removal because it appears to be a transitive dependency
+2021-07-12 14:29:22.029 -05:00 [INF] Marking package System.Diagnostics.DiagnosticSource for removal because it appears to be a transitive dependency
+2021-07-12 14:29:22.031 -05:00 [INF] Marking package System.Memory for removal because it appears to be a transitive dependency
+2021-07-12 14:29:22.034 -05:00 [INF] Marking package System.Numerics.Vectors for removal because it appears to be a transitive dependency
+2021-07-12 14:29:22.036 -05:00 [INF] Marking package System.Runtime.CompilerServices.Unsafe for removal because it appears to be a transitive dependency
+2021-07-12 14:29:22.039 -05:00 [INF] Marking package System.Security.Cryptography.ProtectedData for removal because it appears to be a transitive dependency
+2021-07-12 14:29:22.043 -05:00 [INF] Marking package System.Text.Encodings.Web for removal because it appears to be a transitive dependency
+2021-07-12 14:29:22.048 -05:00 [INF] Marking package System.Text.Json for removal because it appears to be a transitive dependency
+2021-07-12 14:29:22.051 -05:00 [INF] Marking package System.Threading.Tasks.Extensions for removal because it appears to be a transitive dependency
+2021-07-12 14:29:22.429 -05:00 [INF] Reference to .NET Upgrade Assistant analyzer package (Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers, version 0.2.233001) needs added
+2021-07-12 14:29:22.437 -05:00 [INF] Packages to be removed: Azure.Core, Version=1.4.1
+Microsoft.Bcl.AsyncInterfaces, Version=1.0.0
+Microsoft.Identity.Client, Version=4.16.1
+Microsoft.Identity.Client.Extensions.Msal, Version=2.12.0
+System.Buffers, Version=4.5.0
+System.Diagnostics.DiagnosticSource, Version=4.6.0
+System.Memory, Version=4.5.3
+System.Numerics.Vectors, Version=4.5.0
+System.Runtime.CompilerServices.Unsafe, Version=4.6.0
+System.Security.Cryptography.ProtectedData, Version=4.5.0
+System.Text.Encodings.Web, Version=4.6.0
+System.Text.Json, Version=4.6.0
+System.Threading.Tasks.Extensions, Version=4.5.2
+2021-07-12 14:29:22.439 -05:00 [INF] Packages to be added: Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers, Version=0.2.233001
+2021-07-12 14:29:26.030 -05:00 [INF] Applying upgrade step Clean up NuGet package references
+2021-07-12 14:29:26.036 -05:00 [INF] Removing outdated package reference: Azure.Core, Version=1.4.1
+2021-07-12 14:29:26.037 -05:00 [INF] Removing outdated package reference: Microsoft.Bcl.AsyncInterfaces, Version=1.0.0
+2021-07-12 14:29:26.038 -05:00 [INF] Removing outdated package reference: Microsoft.Identity.Client, Version=4.16.1
+2021-07-12 14:29:26.039 -05:00 [INF] Removing outdated package reference: Microsoft.Identity.Client.Extensions.Msal, Version=2.12.0
+2021-07-12 14:29:26.040 -05:00 [INF] Removing outdated package reference: System.Buffers, Version=4.5.0
+2021-07-12 14:29:26.041 -05:00 [INF] Removing outdated package reference: System.Diagnostics.DiagnosticSource, Version=4.6.0
+2021-07-12 14:29:26.041 -05:00 [INF] Removing outdated package reference: System.Memory, Version=4.5.3
+2021-07-12 14:29:26.042 -05:00 [INF] Removing outdated package reference: System.Numerics.Vectors, Version=4.5.0
+2021-07-12 14:29:26.043 -05:00 [INF] Removing outdated package reference: System.Runtime.CompilerServices.Unsafe, Version=4.6.0
+2021-07-12 14:29:26.044 -05:00 [INF] Removing outdated package reference: System.Security.Cryptography.ProtectedData, Version=4.5.0
+2021-07-12 14:29:26.045 -05:00 [INF] Removing outdated package reference: System.Text.Encodings.Web, Version=4.6.0
+2021-07-12 14:29:26.045 -05:00 [INF] Removing outdated package reference: System.Text.Json, Version=4.6.0
+2021-07-12 14:29:26.046 -05:00 [INF] Removing outdated package reference: System.Threading.Tasks.Extensions, Version=4.5.2
+2021-07-12 14:29:26.048 -05:00 [INF] Adding package reference: Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers, Version=0.2.233001
+2021-07-12 14:29:28.372 -05:00 [INF] Upgrade step Clean up NuGet package references applied successfully
+2021-07-12 14:31:02.263 -05:00 [INF] Initializing upgrade step Update TFM
+2021-07-12 14:31:02.271 -05:00 [INF] TFM needs updated to net5.0-windows
+2021-07-12 14:31:09.720 -05:00 [INF] Applying upgrade step Update TFM
+2021-07-12 14:31:13.106 -05:00 [INF] Updated TFM to net5.0-windows
+2021-07-12 14:31:13.108 -05:00 [INF] Upgrade step Update TFM applied successfully
+2021-07-12 14:32:27.200 -05:00 [INF] Initializing upgrade step Update NuGet Packages
+2021-07-12 14:32:28.897 -05:00 [INF] Adding Microsoft.Windows.Compatibility 5.0.2
+2021-07-12 14:32:28.903 -05:00 [INF] Packages to be added: Microsoft.Windows.Compatibility, Version=5.0.2
+2021-07-12 14:32:32.454 -05:00 [INF] Applying upgrade step Update NuGet Packages
+2021-07-12 14:32:32.458 -05:00 [INF] Adding package reference: Microsoft.Windows.Compatibility, Version=5.0.2
+2021-07-12 14:32:36.728 -05:00 [INF] Marking package System.Data.DataSetExtensions for removal because it appears to be a transitive dependency
+2021-07-12 14:32:36.772 -05:00 [INF] Removing outdated package reference: System.Data.DataSetExtensions, Version=4.5.0
+2021-07-12 14:32:38.734 -05:00 [INF] Upgrade step Update NuGet Packages applied successfully
+2021-07-12 14:34:27.157 -05:00 [INF] Initializing upgrade step Add template files
+2021-07-12 14:34:27.166 -05:00 [INF] 0 expected template items needed
+2021-07-12 14:34:27.168 -05:00 [INF] Initializing upgrade step Upgrade app config files
+2021-07-12 14:34:27.199 -05:00 [INF] Found 0 app settings for upgrade: 
+2021-07-12 14:34:27.203 -05:00 [INF] Found 0 connection strings for upgrade: 
+2021-07-12 14:34:27.211 -05:00 [INF] Initializing upgrade step Update source code
+2021-07-12 14:34:28.776 -05:00 [INF] Initializing upgrade step Move to next project
+2021-07-12 14:35:28.293 -05:00 [INF] Saving upgrade progress file at C:\dev\UpgradeChallenges\Challenge1\BindingRedirects\SecretServices\.upgrade-assistant
