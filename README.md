@@ -1,5 +1,5 @@
 # BindingRedirects
-A sample web app
+A sample web app used for research. This project is not intended as an example of best practice or production ready code.
 
 # Troubleshooting
 
