@@ -10,7 +10,7 @@ namespace BindingRedirects.Controllers
         {
             ViewBag.Title = "Home Page";
 
-            var secretService = new SecretServices.SecretService();
+            var secretService = new SecretServices.Standard.SecretService();
             var connectionString = await secretService.GetSecretForFileServiceAsync(token);
 
             ViewBag.ConnectionString = connectionString;
