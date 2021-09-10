@@ -248,6 +248,12 @@
     <Content Include="Scripts\jquery-3.4.1.min.map" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\SecretServices.NetDep\SecretServices.NetDep.csproj">
+      <Project>{08dc80d7-07f3-4491-b8cb-43791414e945}</Project>
+      <Name>SecretServices.NetDep</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <OutputItemType>NetStandardUnifierOutput</OutputItemType>
+    </ProjectReference>
     <ProjectReference Include="..\SecretServices.Standard\SecretServices.Standard.csproj">
       <Project>{4d2e5818-c06c-490f-a241-3ae954d2e681}</Project>
       <Name>SecretServices.Standard</Name>
@@ -293,4 +299,9 @@
   </Target>
   <Target Name="AfterBuild">
   </Target> -->
+  <Target Name="MakeTransitivePackageReferencesAvailable" BeforeTargets="ResolveAssemblyReferences" DependsOnTargets="ResolveProjectReferences">
+    <PropertyGroup>
+      <AssemblySearchPaths>$(AssemblySearchPaths);@(NetStandardUnifierOutput->'%(RootDir)%(Directory)')</AssemblySearchPaths>
+    </PropertyGroup>
+  </Target>
 </Project>
