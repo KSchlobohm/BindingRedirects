@@ -11,7 +11,7 @@ namespace SecretServices.Standard
         public async Task<string> GetSecretForFileServiceAsync(CancellationToken token)
         {
             const string FileStorageAccount = "well-known-key-name";
-            var client = new SecretClient(new Uri("https://oih9gyabkdainwfe.vault.azure.net/"), new DefaultAzureCredential());
+            var client = new SecretClient(new Uri("https://oih9gyabkdainwfx.vault.azure.net/"), new DefaultAzureCredential());
 
             var key = await client.GetSecretAsync(FileStorageAccount, cancellationToken: token);
 
